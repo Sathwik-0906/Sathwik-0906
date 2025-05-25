@@ -2,8 +2,8 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs every day
-  workflow_dispatch:     # Manual run option
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -16,6 +16,9 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          snake_game_speed: 2
+          cell_size: 12
+          duration: 30
 
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
