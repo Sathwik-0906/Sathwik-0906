@@ -21,7 +21,7 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sathwik-0906&" alt="sathwik-0906" /></p>
 
 
-### 🐍 GitHub Contribution Snake
+### 🐍 GitHub Contribution 
 
 ![snake gif](https://github.com/Sathwik-0906/Sathwik-0906/blob/output/github-contribution-grid-snake.svg)
 
