@@ -14,9 +14,9 @@ jobs:
         with:
           github_user_name: Sathwik-0906
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          snake_game_speed: 2
-          cell_size: 12
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#FFFFFF&color_dots=#0D1117,#161B22,#21262D,#30363D
+          snake_game_speed: 1.5
+          cell_size: 13
           duration: 30
 
       - name: Push to GitHub Pages
