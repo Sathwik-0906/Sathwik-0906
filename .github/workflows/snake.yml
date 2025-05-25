@@ -14,7 +14,7 @@ jobs:
         with:
           github_user_name: Sathwik-0906
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#FFFFFF&color_dots=#0D1117,#161B22,#21262D,#30363D
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#FFFFFF&color_dots=#000000
           snake_game_speed: 1.5
           cell_size: 13
           duration: 30
