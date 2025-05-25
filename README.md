@@ -23,8 +23,6 @@
 
 
 
-<br clear="both">
+### 🐍 GitHub Contribution Snake
 
-<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
-
-###
+![snake gif](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/output/github-contribution-grid-snake.svg)
