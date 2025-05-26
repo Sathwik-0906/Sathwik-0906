@@ -16,19 +16,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: Sathwik-0906
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg
-          snake_game_speed: 1.5
-          cell_size: 13
-          duration: 30
-
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Recolor dots to green
-        run: node scripts/colorize-dots.js
+          outputs: dist/github-contribution-grid-snake-dark.svg?color_snake=#FFFFFF&color_dots=#00FF00
 
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
