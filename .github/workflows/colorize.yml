@@ -19,8 +19,9 @@ jobs:
       with:
         node-version: 18
 
-    - name: Install dependencies
-      run: npm install
+    - name: Run script directly
+      run: node scripts/colorize-dots.js
+
 
     - name: Create dist directory
       run: mkdir -p dist
