@@ -9,16 +9,23 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      # 1) Checkout your repo so we have the colorize script:
+      - uses: actions/checkout@v3
+
+      # 2) Generate the raw snake-svg (all-grey dots):
       - name: Generate GitHub Snake Game
         uses: Platane/snk@v3
         with:
           github_user_name: Sathwik-0906
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?color_snake=#FFFFFF
-          snake_game_speed: 1.5
-          cell_size: 13
-          duration: 30
 
+      # 3) Colorize commit dots to green shades:
+      - name: Colorize commit dots
+        run: |
+          node scripts/colorize-dots.js dist/github-contribution-grid-snake-dark.svg
+
+      # 4) Push the final SVG to GitHub Pages branch:
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
