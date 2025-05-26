@@ -15,9 +15,6 @@ jobs:
           github_user_name: Sathwik-0906
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?color_snake=#FFFFFF&color_dots=#000000
-          snake_game_speed: 1.5
-          cell_size: 13
-          duration: 30
 
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
