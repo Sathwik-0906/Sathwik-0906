@@ -7,7 +7,6 @@
 
 ---
 
-
 ### 📫 Connect with me:
 <p align="left">
   <a href="https://linkedin.com/in/sathwik0906" target="blank">
