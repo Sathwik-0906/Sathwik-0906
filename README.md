@@ -43,15 +43,5 @@
 
 ---
 
-### 📊 GitHub Stats:
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sathwik-0906&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-</p>
-
-<p align="left">
-  <img src="https://streak-stats.demolab.com/?user=sathwik-0906" alt="GitHub Streak" />
-</p>
-
----
 
